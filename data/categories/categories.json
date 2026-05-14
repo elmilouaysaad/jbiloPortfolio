@@ -89,6 +89,12 @@
       "name": "Shadows",
       "displayOrder": 15,
       "thumbnail": "artwork_10.jpg"
+    },
+    {
+      "id": "view",
+      "name": "Views",
+      "displayOrder": 1,
+      "thumbnail": "artwork_10.jpg"
     }
   ],
   "images": [
