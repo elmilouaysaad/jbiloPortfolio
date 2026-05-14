@@ -65,6 +65,12 @@
       "name": "Reflections",
       "displayOrder": 11,
       "thumbnail": "artwork_10.jpg"
+    },
+     {
+      "id": "phone",
+      "name": "Phoned",
+      "displayOrder": 12,
+      "thumbnail": "artwork_10.jpg"
     }
   ],
   "images": [
