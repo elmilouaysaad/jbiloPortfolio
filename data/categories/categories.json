@@ -71,6 +71,12 @@
       "name": "Phoned",
       "displayOrder": 12,
       "thumbnail": "artwork_10.jpg"
+    },
+    {
+      "id": "stripes",
+      "name": "Stripes",
+      "displayOrder": 13,
+      "thumbnail": "artwork_10.jpg"
     }
   ],
   "images": [
