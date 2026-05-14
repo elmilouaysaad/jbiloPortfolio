@@ -77,6 +77,12 @@
       "name": "Stripes",
       "displayOrder": 13,
       "thumbnail": "artwork_10.jpg"
+    },
+     {
+      "id": "event",
+      "name": "Events",
+      "displayOrder": 14,
+      "thumbnail": "artwork_10.jpg"
     }
   ],
   "images": [
