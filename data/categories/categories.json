@@ -52,7 +52,7 @@
       "id": "archi",
       "name": "Architecture",
       "displayOrder": 9,
-      "thumbnail": "artwork_11.jpg"
+      "thumbnail": "artwork_11.jpeg"
     },
      {
       "id": "languagei",
@@ -148,7 +148,7 @@
     },
     {
       "id": "img011",
-      "filename": "artwork_11.jpg",
+      "filename": "artwork_11.jpeg",
       "category": "archi",
       "description": "Soft forms and delicate transitions create an ethereal quality. This abstract work explores the boundary between definition and ambiguity, inviting viewers into a contemplative space."
     },
