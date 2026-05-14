@@ -93,7 +93,13 @@
     {
       "id": "view",
       "name": "Views",
-      "displayOrder": 1,
+      "displayOrder": 16,
+      "thumbnail": "artwork_10.jpg"
+    },
+    {
+      "id": "street",
+      "name": "Streets",
+      "displayOrder": 17,
       "thumbnail": "artwork_10.jpg"
     }
   ],
