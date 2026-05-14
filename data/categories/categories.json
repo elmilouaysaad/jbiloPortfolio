@@ -123,12 +123,6 @@
       "description": "Geometric forms arranged in deliberate composition. This piece embraces negative space and precision, creating a sense of quiet harmony through careful reduction and intentional placement."
     },
     {
-      "id": "img004",
-      "filename": "artwork_04.jpg",
-      "category": "urban",
-      "description": "Capturing the interplay between architectural forms and shadow, this urban composition reveals the hidden poetry of city environments. The contrast between light and dark creates dynamic visual tension."
-    },
-    {
       "id": "img005",
       "filename": "artwork_05.jpg",
       "category": "black_white",
@@ -139,12 +133,6 @@
       "filename": "artwork_06.jpg",
       "category": "colors",
       "description": "Vibrant color exploration through fragmented forms. This composition celebrates the emotional resonance of color combinations while maintaining compositional balance through careful arrangement."
-    },
-    {
-      "id": "img007",
-      "filename": "artwork_07.jpg",
-      "category": "urban",
-      "description": "A documentation of urban transformation and deterioration. Through this series, I explore how decay and age can reveal beauty and authenticity in forgotten spaces and surfaces."
     },
     {
       "id": "img008",
