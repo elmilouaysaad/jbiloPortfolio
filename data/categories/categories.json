@@ -84,7 +84,8 @@
       "displayOrder": 14,
       "thumbnail": "artwork_10.jpg"
     },
-    "id": "shadow",
+    {
+      "id": "shadow",
       "name": "Shadows",
       "displayOrder": 15,
       "thumbnail": "artwork_10.jpg"
