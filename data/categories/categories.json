@@ -1,0 +1,150 @@
+{
+  "categories": [
+    {
+      "id": "abstract",
+      "name": "Abstract",
+      "displayOrder": 1,
+      "thumbnail": "artwork_01.jpg"
+    },
+    {
+      "id": "minimalist",
+      "name": "Minimalist",
+      "displayOrder": 2,
+      "thumbnail": "artwork_03.jpg"
+    },
+    {
+      "id": "black_white",
+      "name": "Black & White",
+      "displayOrder": 3,
+      "thumbnail": "artwork_05.jpg"
+    },
+    {
+      "id": "colors",
+      "name": "Colors",
+      "displayOrder": 4,
+      "thumbnail": "artwork_06.jpg"
+    },
+    {
+      "id": "patterns",
+      "name": "Patterns",
+      "displayOrder": 5,
+      "thumbnail": "artwork_08.jpg"
+    },
+    {
+      "id": "textures",
+      "name": "Textures",
+      "displayOrder": 6,
+      "thumbnail": "artwork_09.jpg"
+    },
+    {
+      "id": "urban",
+      "name": "Urban",
+      "displayOrder": 7,
+      "thumbnail": "artwork_04.jpg"
+    },
+    {
+      "id": "portraits",
+      "name": "Portraits",
+      "displayOrder": 8,
+      "thumbnail": "artwork_10.jpg"
+    }
+  ],
+  "images": [
+    {
+      "id": "img001",
+      "filename": "artwork_01.jpg",
+      "category": "abstract",
+      "description": "An exploration of light and form, this piece investigates how abstract elements can create depth and movement. The interplay of contrasting tones creates a sense of luminosity and energy."
+    },
+    {
+      "id": "img002",
+      "filename": "artwork_02.jpg",
+      "category": "minimalist",
+      "description": "A minimalist composition focused on the power of simplicity. Clean lines intersect to create a balanced visual rhythm, demonstrating how few elements can communicate strong spatial relationships."
+    },
+    {
+      "id": "img003",
+      "filename": "artwork_03.jpg",
+      "category": "minimalist",
+      "description": "Geometric forms arranged in deliberate composition. This piece embraces negative space and precision, creating a sense of quiet harmony through careful reduction and intentional placement."
+    },
+    {
+      "id": "img004",
+      "filename": "artwork_04.jpg",
+      "category": "urban",
+      "description": "Capturing the interplay between architectural forms and shadow, this urban composition reveals the hidden poetry of city environments. The contrast between light and dark creates dynamic visual tension."
+    },
+    {
+      "id": "img005",
+      "filename": "artwork_05.jpg",
+      "category": "black_white",
+      "description": "A study in tonal values and movement. By working exclusively in black and white, this piece focuses on contrast, texture, and form, proving that color is not necessary to create visual impact."
+    },
+    {
+      "id": "img006",
+      "filename": "artwork_06.jpg",
+      "category": "colors",
+      "description": "Vibrant color exploration through fragmented forms. This composition celebrates the emotional resonance of color combinations while maintaining compositional balance through careful arrangement."
+    },
+    {
+      "id": "img007",
+      "filename": "artwork_07.jpg",
+      "category": "urban",
+      "description": "A documentation of urban transformation and deterioration. Through this series, I explore how decay and age can reveal beauty and authenticity in forgotten spaces and surfaces."
+    },
+    {
+      "id": "img008",
+      "filename": "artwork_08.jpg",
+      "category": "patterns",
+      "description": "Patterns created through systematic repetition establish visual rhythm. This work explores how repeating elements can build complexity from simplicity, creating mesmerizing effects through mathematical precision."
+    },
+    {
+      "id": "img009",
+      "filename": "artwork_09.jpg",
+      "category": "textures",
+      "description": "A close examination of texture and materiality. This piece celebrates the intricate details found in natural and man-made surfaces, revealing the hidden complexity within what we often overlook."
+    },
+    {
+      "id": "img010",
+      "filename": "artwork_10.jpg",
+      "category": "black_white",
+      "description": "An investigation into the full range of tonal possibilities in black and white media. This composition demonstrates depth and dimensionality through value modulation alone."
+    },
+    {
+      "id": "img011",
+      "filename": "artwork_11.jpg",
+      "category": "abstract",
+      "description": "Soft forms and delicate transitions create an ethereal quality. This abstract work explores the boundary between definition and ambiguity, inviting viewers into a contemplative space."
+    },
+    {
+      "id": "img012",
+      "filename": "artwork_12.jpg",
+      "category": "minimalist",
+      "description": "Inspired by architectural elements, this minimalist piece distills form to its essence. The composition reveals how restraint and precision can create powerful visual statements."
+    },
+    {
+      "id": "img013",
+      "filename": "artwork_13.jpg",
+      "category": "textures",
+      "description": "Patterns found in nature inspire this work. By isolating and magnifying natural textures, this piece celebrates the inherent beauty and complexity present in the natural world."
+    },
+    {
+      "id": "img014",
+      "filename": "artwork_14.jpg",
+      "category": "urban",
+      "description": "Where urban planning meets geometric abstraction. This composition extracts geometric forms from cityscapes, revealing the mathematical precision underlying human-built environments."
+    },
+    {
+      "id": "img015",
+      "filename": "artwork_15.jpg",
+      "category": "colors",
+      "description": "Layered colors create depth and visual complexity. This work explores color interaction and perception, demonstrating how overlapping hues can generate new visual experiences."
+    },
+    {
+      "id": "img016",
+      "filename": "artwork_16.jpg",
+      "category": "abstract",
+      "description": "Abstract forms conveying emotional states rather than literal representation. This piece invites personal interpretation, allowing viewers to project their own experiences onto the composition."
+    }
+  ]
+}

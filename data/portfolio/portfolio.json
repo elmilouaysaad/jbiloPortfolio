@@ -1,0 +1,46 @@
+{
+  "favorites": [
+    {
+      "id": "img001",
+      "filename": "artwork_01.jpg",
+      "category": "abstract",
+      "order": 1,
+      "description": "An exploration of light and form, this piece investigates how abstract elements can create depth and movement. The interplay of contrasting tones creates a sense of luminosity and energy."
+    },
+    {
+      "id": "img003",
+      "filename": "artwork_02.jpg",
+      "category": "minimalist",
+      "order": 2,
+      "description": "Geometric forms arranged in deliberate composition. This piece embraces negative space and precision, creating a sense of quiet harmony through careful reduction and intentional placement."
+    },
+    {
+      "id": "img007",
+      "filename": "artwork_03.jpg",
+      "category": "urban",
+      "order": 3,
+      "description": "A documentation of urban transformation and deterioration. Through this series, I explore how decay and age can reveal beauty and authenticity in forgotten spaces and surfaces."
+    },
+    {
+      "id": "img010",
+      "filename": "artwork_04.jpg",
+      "category": "black_white",
+      "order": 4,
+      "description": "An investigation into the full range of tonal possibilities in black and white media. This composition demonstrates depth and dimensionality through value modulation alone."
+    },
+    {
+      "id": "img013",
+      "filename": "artwork_05.jpg",
+      "category": "textures",
+      "order": 5,
+      "description": "Patterns found in nature inspire this work. By isolating and magnifying natural textures, this piece celebrates the inherent beauty and complexity present in the natural world."
+    },
+    {
+      "id": "img015",
+      "filename": "artwork_10.jpg",
+      "category": "colors",
+      "order": 6,
+      "description": "Layered colors create depth and visual complexity. This work explores color interaction and perception, demonstrating how overlapping hues can generate new visual experiences."
+    }
+  ]
+}
