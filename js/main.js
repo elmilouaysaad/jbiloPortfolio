@@ -8,6 +8,8 @@ let manifestData = null;
 
 // Initialize portfolio data on page load
 document.addEventListener('DOMContentLoaded', async () => {
+  registerServiceWorker();
+
   await Promise.all([
     loadManifestData(),
     loadPortfolioData(),
@@ -19,13 +21,65 @@ document.addEventListener('DOMContentLoaded', async () => {
   // Render portfolio on portfolio page
   if (document.getElementById('portfolio-gallery')) {
     renderPortfolio();
+    warmImageCache(getPortfolioWarmImages());
   }
 
   // Setup category browsing on browse page
   if (document.getElementById('category-grid')) {
     renderCategoryBrowse();
+    warmImageCache(getCategoryWarmImages());
   }
 });
+
+function registerServiceWorker() {
+  if (!('serviceWorker' in navigator)) return;
+
+  window.addEventListener('load', () => {
+    navigator.serviceWorker.register('./service-worker.js').catch(error => {
+      console.error('Service worker registration failed:', error);
+    });
+  }, { once: true });
+}
+
+function warmImageCache(filenames) {
+  const uniqueFiles = [...new Set(filenames)].filter(Boolean);
+  if (!uniqueFiles.length) return;
+
+  const warm = () => {
+    uniqueFiles.forEach(filename => {
+      const image = new Image();
+      image.decoding = 'async';
+      image.src = `./images/${filename}`;
+    });
+  };
+
+  if ('requestIdleCallback' in window) {
+    window.requestIdleCallback(warm, { timeout: 2000 });
+  } else {
+    window.setTimeout(warm, 500);
+  }
+}
+
+function getPortfolioWarmImages() {
+  const favorites = portfolioData?.favorites ?? [];
+  const priority = favorites.filter(item => item.order <= 3).map(item => item.filename);
+  const rest = favorites.filter(item => item.order > 3).map(item => item.filename);
+  return [...priority, ...rest];
+}
+
+function getCategoryWarmImages() {
+  const categories = categoriesData?.categories ?? [];
+  const images = categoriesData?.images ?? [];
+  const categoryThumbs = categories.map(category => category.thumbnail);
+  const portraitImages = images
+    .filter(item => item.category === 'portraits')
+    .map(item => item.filename);
+  const eventImages = images
+    .filter(item => item.category === 'event' || item.category === 'street')
+    .map(item => item.filename);
+
+  return [...categoryThumbs, ...portraitImages, ...eventImages];
+}
 
 /**
  * Load manifest text data
