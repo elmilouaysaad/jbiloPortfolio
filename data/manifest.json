@@ -13,14 +13,13 @@
     "home": {
       "title": "Welcome",
       "hero": {
-        "lead": "This is the creative portfolio of Mohamed Amine Jebli, a communication student at Al Akhawayn University."
+        "lead": "This is the creative portfolio of Mohamed Amine Jebli."
       },
       "about": {
         "heading": " ",
         "backgroundHeading": "Background",
         "background": [
           "I am a communication student at Al Akhawayn University in Ifrane, Morocco. My passion lies in visual communication, design thinking, and creative storytelling. Through my work, I explore how design and visual elements can communicate meaningful ideas and create connections with audiences.",
-          "My creative interests span multiple disciplines including photography, graphic design, digital media, and visual art. I believe in the power of clean aesthetics and purposeful design to convey messages effectively."
         ],
         "philosophyHeading": "Creative Philosophy",
         "philosophy": [
@@ -30,7 +29,7 @@
         "experienceHeading": "Experience",
         "experience": "Through my studies at Al Akhawayn University, I have developed expertise in visual communication, digital design, and multimedia projects. I have collaborated on various creative initiatives and have a strong foundation in design principles, content creation, and digital storytelling. I continue to explore and develop my creative practice across multiple visual mediums.",
         "exploreHeading": "Explore My Work",
-        "explore": "Browse through my curated collection of projects spanning multiple disciplines—from graphic design and photography to digital media and visual art. Each piece reflects my passion for clean aesthetics, meaningful communication, and thoughtful design.",
+        "explore": "Browse through my curated collection of projects spanning multiple categories.",
         "actions": {
           "portfolio": "→ View Featured Works",
           "browse": "→ Browse by Category",
