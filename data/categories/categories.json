@@ -40,7 +40,7 @@
       "id": "urban",
       "name": "Urban",
       "displayOrder": 7,
-      "thumbnail": "work_in.jpg"
+      "thumbnail": "urban.jpg"
     },
     {
       "id": "portraits",
@@ -70,7 +70,7 @@
       "id": "phone",
       "name": "Phoned",
       "displayOrder": 12,
-      "thumbnail": "work_in.jpg"
+      "thumbnail": "phoned.jpg"
     },
     {
       "id": "stripes",
@@ -82,13 +82,13 @@
       "id": "event",
       "name": "Events",
       "displayOrder": 14,
-      "thumbnail": "belabbas.jpg"
+      "thumbnail": "event.jpg"
     },
     {
       "id": "shadow",
       "name": "Shadows",
       "displayOrder": 15,
-      "thumbnail": "work_in.jpg"
+      "thumbnail": "shadows.jpg"
     },
     {
       "id": "view",
@@ -100,13 +100,13 @@
       "id": "street",
       "name": "Streets",
       "displayOrder": 17,
-      "thumbnail": "cat.jpg"
+      "thumbnail": "street2.jpg"
     },
     {
       "id": "people",
       "name": "People",
       "displayOrder": 18,
-      "thumbnail": "people.jpg"
+      "thumbnail": "people1.jpg"
     }
   ],
   "images": [
@@ -115,6 +115,36 @@
       "filename": "artwork_01.jpg",
       "category": "",
       "description": "An exploration of light and form, this piece investigates how abstract elements can create depth and movement. The interplay of contrasting tones creates a sense of luminosity and energy."
+    },
+    {
+      "id": "img027",
+      "filename": "event.jpg",
+      "category": "event",
+      "description": "New event image added to the Events category."
+    },
+    {
+      "id": "img028",
+      "filename": "people1.jpg",
+      "category": "people",
+      "description": "Additional people study labeled people1."
+    },
+    {
+      "id": "img029",
+      "filename": "shadows.jpg",
+      "category": "shadow",
+      "description": "High-contrast shadow study added to Shadows."
+    },
+    {
+      "id": "img030",
+      "filename": "street.jpg",
+      "category": "street",
+      "description": "Street scene added to Streets category."
+    },
+    {
+      "id": "img031",
+      "filename": "urban.jpg",
+      "category": "urban",
+      "description": "Urban environment photograph added to Urban category."
     },
     {
       "id": "img002",
@@ -217,6 +247,19 @@
       "filename": "people.jpg",
       "category": "people",
       "description": "Group portrait centered on people and presence."
+    }
+    ,
+    {
+      "id": "img032",
+      "filename": "phoned.jpg",
+      "category": "phone",
+      "description": "New phoned image added to Phoned category."
+    },
+    {
+      "id": "img033",
+      "filename": "street2.jpg",
+      "category": "street",
+      "description": "Additional street scene added as street2."
     }
   ]
 }
