@@ -8,11 +8,13 @@ let manifestData = null;
 
 // Initialize portfolio data on page load
 document.addEventListener('DOMContentLoaded', async () => {
-  await loadManifestData();
-  applyManifestContent();
+  await Promise.all([
+    loadManifestData(),
+    loadPortfolioData(),
+    loadCategoriesData(),
+  ]);
 
-  await loadPortfolioData();
-  await loadCategoriesData();
+  applyManifestContent();
   
   // Render portfolio on portfolio page
   if (document.getElementById('portfolio-gallery')) {
@@ -23,8 +25,6 @@ document.addEventListener('DOMContentLoaded', async () => {
   if (document.getElementById('category-grid')) {
     renderCategoryBrowse();
   }
-
-  applyManifestContent();
 });
 
 /**
