@@ -46,7 +46,7 @@
       "id": "portraits",
       "name": "Portraits",
       "displayOrder": 8,
-      "thumbnail": "artwork_10.jpg"
+      "thumbnail": "DSCF9478 (1).jpg"
     },
     {
       "id": "archi",
@@ -58,49 +58,49 @@
       "id": "languagei",
       "name": "Language",
       "displayOrder": 10,
-      "thumbnail": "artwork_10.jpg"
+      "thumbnail": "work_in.jpg"
     },
     {
       "id": "reflection",
       "name": "Reflections",
       "displayOrder": 11,
-      "thumbnail": "artwork_10.jpg"
+      "thumbnail": "work_in.jpg"
     },
     {
       "id": "phone",
       "name": "Phoned",
       "displayOrder": 12,
-      "thumbnail": "artwork_10.jpg"
+      "thumbnail": "work_in.jpg"
     },
     {
       "id": "stripes",
       "name": "Stripes",
       "displayOrder": 13,
-      "thumbnail": "artwork_10.jpg"
+      "thumbnail": "work_in.jpg"
     },
     {
       "id": "event",
       "name": "Events",
       "displayOrder": 14,
-      "thumbnail": "artwork_10.jpg"
+      "thumbnail": "belabbas.jpg"
     },
     {
       "id": "shadow",
       "name": "Shadows",
       "displayOrder": 15,
-      "thumbnail": "artwork_10.jpg"
+      "thumbnail": "work_in.jpg"
     },
     {
       "id": "view",
       "name": "Views",
       "displayOrder": 16,
-      "thumbnail": "artwork_10.jpg"
+      "thumbnail": "work_in.jpg"
     },
     {
       "id": "street",
       "name": "Streets",
       "displayOrder": 17,
-      "thumbnail": "artwork_10.jpg"
+      "thumbnail": "cat.jpg"
     },
     {
       "id": "people",
@@ -165,30 +165,6 @@
       "description": "Soft forms and delicate transitions create an ethereal quality. This abstract work explores the boundary between definition and ambiguity, inviting viewers into a contemplative space."
     },
     {
-      "id": "img012",
-      "filename": "artwork_12.jpg",
-      "category": "minimalist",
-      "description": "Inspired by architectural elements, this minimalist piece distills form to its essence. The composition reveals how restraint and precision can create powerful visual statements."
-    },
-    {
-      "id": "img013",
-      "filename": "artwork_13.jpg",
-      "category": "textures",
-      "description": "Patterns found in nature inspire this work. By isolating and magnifying natural textures, this piece celebrates the inherent beauty and complexity present in the natural world."
-    },
-    {
-      "id": "img015",
-      "filename": "artwork_15.jpg",
-      "category": "colors",
-      "description": "Layered colors create depth and visual complexity. This work explores color interaction and perception, demonstrating how overlapping hues can generate new visual experiences."
-    },
-    {
-      "id": "img016",
-      "filename": "artwork_16.jpg",
-      "category": "abstract",
-      "description": "Abstract forms conveying emotional states rather than literal representation. This piece invites personal interpretation, allowing viewers to project their own experiences onto the composition."
-    },
-    {
       "id": "img017",
       "filename": "DSCF9443.jpg",
       "category": "archi",
@@ -198,12 +174,6 @@
       "id": "img018",
       "filename": "DSCF9561.jpg",
       "category": "archi",
-      "description": "Abstract forms conveying emotional states rather than literal representation. This piece invites personal interpretation, allowing viewers to project their own experiences onto the composition."
-    },
-    {
-      "id": "img019",
-      "filename": "urban1.jpg",
-      "category": "urban",
       "description": "Abstract forms conveying emotional states rather than literal representation. This piece invites personal interpretation, allowing viewers to project their own experiences onto the composition."
     },
     {
