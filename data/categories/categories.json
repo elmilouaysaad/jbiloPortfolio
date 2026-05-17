@@ -40,7 +40,7 @@
       "id": "urban",
       "name": "Urban",
       "displayOrder": 7,
-      "thumbnail": "artwork_04.jpg"
+      "thumbnail": "artwork_01.jpg"
     },
     {
       "id": "portraits",
@@ -48,25 +48,25 @@
       "displayOrder": 8,
       "thumbnail": "artwork_10.jpg"
     },
-  {
+    {
       "id": "archi",
       "name": "Architecture",
       "displayOrder": 9,
       "thumbnail": "artwork_11.jpeg"
     },
-     {
+    {
       "id": "languagei",
       "name": "Language",
       "displayOrder": 10,
       "thumbnail": "artwork_10.jpg"
     },
-     {
+    {
       "id": "reflection",
       "name": "Reflections",
       "displayOrder": 11,
       "thumbnail": "artwork_10.jpg"
     },
-     {
+    {
       "id": "phone",
       "name": "Phoned",
       "displayOrder": 12,
@@ -78,7 +78,7 @@
       "displayOrder": 13,
       "thumbnail": "artwork_10.jpg"
     },
-     {
+    {
       "id": "event",
       "name": "Events",
       "displayOrder": 14,
@@ -101,6 +101,12 @@
       "name": "Streets",
       "displayOrder": 17,
       "thumbnail": "artwork_10.jpg"
+    },
+    {
+      "id": "people",
+      "name": "People",
+      "displayOrder": 18,
+      "thumbnail": "people.jpg"
     }
   ],
   "images": [
@@ -182,7 +188,7 @@
       "category": "abstract",
       "description": "Abstract forms conveying emotional states rather than literal representation. This piece invites personal interpretation, allowing viewers to project their own experiences onto the composition."
     },
-     {
+    {
       "id": "img017",
       "filename": "DSCF9443.jpg",
       "category": "archi",
@@ -206,17 +212,41 @@
       "category": "portraits",
       "description": "Abstract forms conveying emotional states rather than literal representation. This piece invites personal interpretation, allowing viewers to project their own experiences onto the composition."
     },
-     {
+    {
       "id": "img021",
       "filename": "DSCF9498.jpg",
       "category": "portraits",
       "description": "Abstract forms conveying emotional states rather than literal representation. This piece invites personal interpretation, allowing viewers to project their own experiences onto the composition."
     },
-     {
+    {
       "id": "img022",
       "filename": "DSCF9795.jpg",
       "category": "portraits",
       "description": "Abstract forms conveying emotional states rather than literal representation. This piece invites personal interpretation, allowing viewers to project their own experiences onto the composition."
+    },
+    {
+      "id": "img023",
+      "filename": "belabbas.jpg",
+      "category": "event",
+      "description": "Portrait study with a candid, documentary feel."
+    },
+    {
+      "id": "img024",
+      "filename": "cat.jpg",
+      "category": "street",
+      "description": "Street scene featuring a cat in an urban setting."
+    },
+    {
+      "id": "img025",
+      "filename": "dude.jpg",
+      "category": "street",
+      "description": "Street portrait with a casual, observed moment."
+    },
+    {
+      "id": "img026",
+      "filename": "people.jpg",
+      "category": "people",
+      "description": "Group portrait centered on people and presence."
     }
   ]
 }
