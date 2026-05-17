@@ -33,7 +33,7 @@
         "actions": {
           "portfolio": "→ View Featured Works",
           "browse": "→ Browse by Category",
-          "contact": "→ Contact Me"
+          "contact": "→ Contact Me",
         }
       }
     },
