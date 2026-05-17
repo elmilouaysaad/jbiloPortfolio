@@ -183,8 +183,9 @@ function renderPortfolio() {
   favorites.forEach(item => {
     const div = document.createElement('div');
     div.className = 'gallery-item';
+    const eager = item.order <= 3;
     div.innerHTML = `
-      <img src="./images/${item.filename}" alt="artwork" data-id="${item.id}">
+      <img src="./images/${item.filename}" alt="artwork" data-id="${item.id}" ${eager ? 'loading="eager" fetchpriority="high"' : 'loading="lazy"'} decoding="async">
     `;
     div.addEventListener('click', () => openDetailView(item.filename, getArtworkDescription(item.id)));
     gallery.appendChild(div);
@@ -208,12 +209,13 @@ function renderCategoryBrowse() {
   const sortedCategories = [...categoriesData.categories].sort((a, b) => a.displayOrder - b.displayOrder);
 
   // Create category cards
-  sortedCategories.forEach(category => {
+  sortedCategories.forEach((category, index) => {
     const card = document.createElement('div');
     card.className = 'category-card';
+    const eager = index < 4;
     card.innerHTML = `
       <div class="category-card-image">
-        <img src="./images/${category.thumbnail}" alt="${category.name}">
+        <img src="./images/${category.thumbnail}" alt="${category.name}" ${eager ? 'loading="eager" fetchpriority="high"' : 'loading="lazy"'} decoding="async">
       </div>
       <div class="category-card-title">${category.name}</div>
     `;
@@ -246,8 +248,9 @@ function displayImagesByCategory(categoryId) {
   images.forEach(item => {
     const div = document.createElement('div');
     div.className = 'gallery-item';
+    const eager = !categoryId && images.indexOf(item) < 4;
     div.innerHTML = `
-      <img src="./images/${item.filename}" alt="artwork" data-id="${item.id}">
+      <img src="./images/${item.filename}" alt="artwork" data-id="${item.id}" ${eager ? 'loading="eager" fetchpriority="high"' : 'loading="lazy"'} decoding="async">
     `;
     div.addEventListener('click', () => openDetailView(item.filename, getArtworkDescription(item.id)));
     gallery.appendChild(div);
@@ -291,7 +294,7 @@ function openDetailView(filename, description) {
     <div class="detail-content">
       <button class="detail-close" aria-label="Close">&times;</button>
       <div class="detail-image-wrapper">
-        <img src="./images/${filename}" alt="${title}">
+        <img src="./images/${filename}" alt="${title}" loading="eager" fetchpriority="high" decoding="async">
       </div>
       <div class="detail-text">
         <h2>${title}</h2>
