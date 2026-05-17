@@ -4,43 +4,43 @@
       "id": "abstract",
       "name": "Abstract",
       "displayOrder": 1,
-      "thumbnail": "artwork_01.jpg"
+      "thumbnail": "work_in.jpg"
     },
     {
       "id": "minimalist",
       "name": "Minimalist",
       "displayOrder": 2,
-      "thumbnail": "artwork_03.jpg"
+      "thumbnail": "work_in.jpg"
     },
     {
       "id": "black_white",
       "name": "Black & White",
       "displayOrder": 3,
-      "thumbnail": "artwork_05.jpg"
+      "thumbnail": "work_in.jpg"
     },
     {
       "id": "colors",
       "name": "Colors",
       "displayOrder": 4,
-      "thumbnail": "artwork_06.jpg"
+      "thumbnail": "work_in.jpg"
     },
     {
       "id": "patterns",
       "name": "Patterns",
       "displayOrder": 5,
-      "thumbnail": "artwork_08.jpg"
+      "thumbnail": "work_in.jpg"
     },
     {
       "id": "textures",
       "name": "Textures",
       "displayOrder": 6,
-      "thumbnail": "artwork_09.jpg"
+      "thumbnail": "work_in.jpg"
     },
     {
       "id": "urban",
       "name": "Urban",
       "displayOrder": 7,
-      "thumbnail": "artwork_01.jpg"
+      "thumbnail": "work_in.jpg"
     },
     {
       "id": "portraits",
@@ -113,49 +113,49 @@
     {
       "id": "img001",
       "filename": "artwork_01.jpg",
-      "category": "abstract",
+      "category": "",
       "description": "An exploration of light and form, this piece investigates how abstract elements can create depth and movement. The interplay of contrasting tones creates a sense of luminosity and energy."
     },
     {
       "id": "img002",
       "filename": "artwork_02.jpg",
-      "category": "minimalist",
+      "category": "",
       "description": "A minimalist composition focused on the power of simplicity. Clean lines intersect to create a balanced visual rhythm, demonstrating how few elements can communicate strong spatial relationships."
     },
     {
       "id": "img003",
       "filename": "artwork_03.jpg",
-      "category": "minimalist",
+      "category": "",
       "description": "Geometric forms arranged in deliberate composition. This piece embraces negative space and precision, creating a sense of quiet harmony through careful reduction and intentional placement."
     },
     {
       "id": "img005",
       "filename": "artwork_05.jpg",
-      "category": "black_white",
+      "category": "",
       "description": "A study in tonal values and movement. By working exclusively in black and white, this piece focuses on contrast, texture, and form, proving that color is not necessary to create visual impact."
     },
     {
       "id": "img006",
       "filename": "artwork_06.jpg",
-      "category": "colors",
+      "category": "",
       "description": "Vibrant color exploration through fragmented forms. This composition celebrates the emotional resonance of color combinations while maintaining compositional balance through careful arrangement."
     },
     {
       "id": "img008",
       "filename": "artwork_08.jpg",
-      "category": "patterns",
+      "category": "",
       "description": "Patterns created through systematic repetition establish visual rhythm. This work explores how repeating elements can build complexity from simplicity, creating mesmerizing effects through mathematical precision."
     },
     {
       "id": "img009",
       "filename": "artwork_09.jpg",
-      "category": "textures",
+      "category": "",
       "description": "A close examination of texture and materiality. This piece celebrates the intricate details found in natural and man-made surfaces, revealing the hidden complexity within what we often overlook."
     },
     {
       "id": "img010",
       "filename": "artwork_10.jpg",
-      "category": "black_white",
+      "category": "",
       "description": "An investigation into the full range of tonal possibilities in black and white media. This composition demonstrates depth and dimensionality through value modulation alone."
     },
     {
