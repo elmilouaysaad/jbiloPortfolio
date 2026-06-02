@@ -113,6 +113,12 @@
       "name": "Architecture",
       "displayOrder": 19,
       "thumbnail": "DSCF8807.jpg"
+    },
+     {
+      "id": "archi",
+      "name": "Architecture",
+      "displayOrder": 20,
+      "thumbnail": "DSCF8804.jpg"
     }
   ],
   "images": [
@@ -270,6 +276,12 @@
       {
       "id": "img034",
       "filename": "DSCF8807.jpg",
+      "category": "archi",
+      "description": "Additional street scene added as street2."
+    },
+     {
+      "id": "img035",
+      "filename": "DSCF8804.jpg",
       "category": "archi",
       "description": "Additional street scene added as street2."
     }
