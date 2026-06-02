@@ -113,7 +113,7 @@
       "name": "Architecture",
       "displayOrder": 19,
       "thumbnail": "DSCF8807.jpg"
-    },
+    }
   ],
   "images": [
     {
@@ -272,6 +272,6 @@
       "filename": "DSCF8807.jpg",
       "category": "archi",
       "description": "Additional street scene added as street2."
-    },
-  ],
-},
+    }
+  ]
+}
