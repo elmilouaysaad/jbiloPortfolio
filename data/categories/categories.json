@@ -266,6 +266,12 @@
       "filename": "street2.jpg",
       "category": "street",
       "description": "Additional street scene added as street2."
-    }
+    },
+      {
+      "id": "img034",
+      "filename": "DSCF8807.jpg",
+      "category": "archi",
+      "description": "Additional street scene added as street2."
+    },
   ]
 }
