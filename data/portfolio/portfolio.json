@@ -97,6 +97,13 @@
       "category": "street",
       "order": 14,
       "description": "Additional street scene added as street2."
+    },
+     {
+      "id": "img034",
+      "filename": "DSCF8807.jpg",
+      "category": "archi",
+      "order": 15,
+      "description": "Additional street scene added as street2."
     }
   ]
 }
